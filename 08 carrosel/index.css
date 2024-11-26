@@ -1,0 +1,20 @@
+body{
+    background: url(vazio\ roxo.jpg) rgba(0, 0, 0, 0.623);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    background-color: rgba(33, 3, 61, 0.644);
+    color: white;
+    text-align: center
+}
+
+button{
+    border-radius: 20%;
+}
+
+button:hover{
+    color: rgb(162, 0, 255);
+}

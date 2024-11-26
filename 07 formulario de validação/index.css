@@ -1,0 +1,28 @@
+body{
+    background: url(images.jpg) rgba(0, 0, 0, 0.719);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.preto{
+    text-align: center;
+    margin-top: 200px;
+}
+
+button:hover{
+    color: blue;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.macaco{
+    background-color: rgba(0, 0, 255, 0.123);
+    width: 400px;
+    height: 200px;
+    top: 200px;
+    left: 400px;
+    border-radius: 20px;
+    margin-left: 460px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="macaco">
+        <div class="preto">
+            <h3>Formulário de Cadastro</h3>
+            <form onsubmit="return validarFormulario()">
+                <label>Nome: <input type="text" id="nome"></label><br><br>
+                <label>Email: <input type="email" id="email"></label><br><br>
+                <label>Senha: <input type="password" id="senha"></label><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensagemErro" style="color: red;"></p>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>

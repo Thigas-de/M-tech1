@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Despesas</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+    .formulario-despesas, .total-despesas { max-width: 400px; margin: 0 auto; }
+    .item-despesa { display: flex; justify-content: space-between; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="formulario-despesas">
+        <h3>Despesas Mensais</h3>
+        <div id="despesas"></div>
+        <div class="item-despesa">
+            <input type="text" id="nomeDespesa" placeholder="Nome da despesa">
+            <input type="number" id="valorDespesa" placeholder="Valor">
+            <button onclick="adicionarDespesa()">Adicionar Despesa</button>
+        </div>
+        <div class="total-despesas">
+            <h4>Total: R$ <span id="total">0,00</span></h4>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(126, 126, 126);
+}
+
+.pp{
+    text-align: center;
+    align-items: center;
+}
+
+.bafo{
+    background-color: rgb(255, 255, 255);
+    margin-left: 450px;
+    margin-right: 500px;
+}
+
+h3{
+    color: white;
+}
+
+.item-tarefa { 
+    padding: 10px; 
+    margin: 5px; 
+    cursor: grab; 
+    margin-right: 500px;
+}

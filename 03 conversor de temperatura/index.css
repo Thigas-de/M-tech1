@@ -1,0 +1,28 @@
+body{
+    background-color: #007fff;
+    color: rgb(255, 255, 255);
+}
+
+.conteiner{
+    background-color: rgb(36, 80, 145);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 400px;
+    height: 200px;
+    margin-left: 470px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.dito{
+    margin-top: 100px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}

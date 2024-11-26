@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Lista de Tarefas - Drag-and-Drop</title>
+ <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="pp">
+        <h3>Lista de Tarefas</h3>
+        <input type="text" id="novaTarefa" placeholder="Nova Tarefa">
+        <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    </div> 
+    <div class="bafo">   
+        <div id="listaTarefas" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div>    
+    </div>        
+</body>
+    <script src="screpite.js"></script>
+</html>

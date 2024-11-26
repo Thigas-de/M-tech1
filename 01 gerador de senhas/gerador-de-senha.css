@@ -1,0 +1,30 @@
+body{
+    background-color: #87cefa;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: rgba(0, 255, 255, 0.185);
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(3, 255, 242, 0.479);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 400px;
+    height: 200px;
+    margin-left: 470px;
+}
+
+button:hover{
+    background-color: rgb(94, 181, 231);
+    color: white;
+}

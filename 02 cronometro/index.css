@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(56, 24, 99);
+    color: white;
+   justify-content: center;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.neguinho{
+    background-color: blueviolet; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 400px;
+    height: 200px;
+    margin-left: 470px;
+}
+
+button:hover{
+    background-color: rgb(59, 21, 95);
+    color: white;
+}
